@@ -1,5 +1,31 @@
 
 /* Acá van tus estilos */
+body{
+	background-color: #444;
+}
+.navbar{
+	background-color: #333333;
+	border: none;
+}
+
+.logo-navbar{
+	width: 100px;
+	margin-top: 8px;
+}
+
+.navbar-collapse{
+	margin-top: 12px;
+}
+
+li a:hover{
+	color: #333333;
+}
+
+.navbar-toggle{
+	border: none;
+}
+
+/* Acá van tus estilos */
 
 
 /* colores perfil 
@@ -137,4 +163,3 @@ section{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-
