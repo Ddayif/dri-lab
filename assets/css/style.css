@@ -1,6 +1,45 @@
 
 /* Acá van tus estilos */
 body{
+	font-family: 'Gudea', sans-serif;
+	color: #a1a1a1
+}
+
+#contenedor{
+	padding-top: 30px;
+}
+
+ul {
+	list-style: none;
+}
+
+
+.iconos{
+    display: inline-block;
+    margin: 13px;
+    font-size: 24px;
+}
+
+.job{
+	margin-left: 48px;
+}
+
+.contenedor-imagen{
+	display: flex;
+}
+
+.imagen-fantasy{
+	    width: 58px;
+}
+
+.overtime{
+	width: 150px;
+	margin-left: 80px;
+}
+
+
+/* Acá van tus estilos */
+body{
 	background-color: #444;
 }
 .navbar{
@@ -163,3 +202,4 @@ section{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
