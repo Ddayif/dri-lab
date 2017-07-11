@@ -1,1 +1,19 @@
 /* Acá van tus estilos */
+body{
+	background-color: #444;
+}
+.navbar{
+	background-color: #333333;
+	border: none;
+}
+
+.logo-navbar{
+	width: 100px;
+	margin-top: 8px;
+}
+
+.navbar-collapse{
+	margin-top: 12px;
+}
+
+
