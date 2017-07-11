@@ -16,4 +16,10 @@ body{
 	margin-top: 12px;
 }
 
+li a:hover{
+	color: #333333;
+}
 
+.navbar-toggle{
+	border: none;
+}
