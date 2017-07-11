@@ -176,20 +176,25 @@ section{
 
 /*Estilos Footer*/
 
-footer{
-	background-color: white;
-}
-
-.copyright{
-	background-color: white;
-}
-
 #contenedor{
 	padding-top: 30px;
 }
 
-ul {
+.logofooter{
+	width: 83px;
+}
+
+.contenedor-iconos{
+	padding: 0px;
+}  
+
+.footer-ul {
 	list-style: none;
+}
+
+
+a:link{
+	text-decoration: none;
 }
 
 .iconos{
@@ -200,18 +205,50 @@ ul {
 
 .job{
 	margin-left: 48px;
+	margin-top: 10px;
 }
 
 .contenedor-imagen{
 	display: flex;
+	margin-top: 15px;
 }
 
-.imagen-fantasy{
-	width: 58px;
+.imagen-better-fantasy{
+    width: 50px;
+    height: 50px;
+}
+
+.text{
+	padding-top: 20px;
 }
 
 .overtime{
-	width: 150px;
-	margin-left: 80px;
+    width: 130px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
 }
 
+.lista{
+	margin-top: 10px;
+}
+
+.color-text{
+	color: #999999;
+}
+
+.listen{
+    margin-top: 16px;
+    margin-left: 17px;
+}
+
+#number{
+	display: inline-block;
+	color: black;
+	padding-left: 10px;
+}
+
+.p{
+	font-size: 15px;
+    padding-left: 6px;
+}
