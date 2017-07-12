@@ -192,6 +192,11 @@ section{
 
 /*Estilos Footer*/
 
+footer, .lastfooter{
+	background-color: white;
+}
+
+
 #contenedor{
 	padding-top: 30px;
 }
@@ -220,7 +225,6 @@ a:link{
 }
 
 .job{
-	margin-left: 48px;
 	margin-top: 10px;
 }
 
@@ -268,40 +272,3 @@ a:link{
 	font-size: 15px;
     padding-left: 6px;
 }
-
-
-
-/*Estilos versión mobile: máximo ancho 600px */
-@media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
-
-.navbar-brand {
-    float: none;
-    padding:0;
-}
-
-.logo-navbar {
-	display:block;
-    max-width: 100px;
-    margin: 0 auto;
-    padding-top: 10px;
-    width: 90%;
-}
-
-.overtime {
-    
-    margin:0;
-}
-
-.contenedor-imagen {
-    margin:0;
-}
-
-.align{
-	text-align: justify;
-    text-justify: inter-word;
-}
-.contenedor-iconos{
-	padding-left: 160px;
-}
-	}
-
