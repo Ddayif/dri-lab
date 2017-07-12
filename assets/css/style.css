@@ -78,7 +78,26 @@ hr{
 	height: 30px;
 	width: 100px;
 }
+.btn-profile{
+	border-radius: 4px;
+	background-color: #b3a59b;
+	border-style: none;
+	color: #757575;
+	height: 25px;
+	width: 50px;
+	padding: 3px;
 
+}
+.btn, .btn:hover{
+	color: #757575;
+	font-size: 16px;
+	padding: 0;
+	padding-bottom: 5px;
+	margin:0;
+}
+.follow:hover {
+    background-color: #3a8bbb;
+}
 #sobre{
 	color: white;
 }
@@ -170,9 +189,6 @@ section{
   -ms-transform: translate(-50%, -50%);
 }
 
-.allimgbox{
-	margin-left: 50px;
-}
 
 /*Estilos Footer*/
 
@@ -252,3 +268,40 @@ a:link{
 	font-size: 15px;
     padding-left: 6px;
 }
+
+
+
+/*Estilos versión mobile: máximo ancho 600px */
+@media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
+
+.navbar-brand {
+    float: none;
+    padding:0;
+}
+
+.logo-navbar {
+	display:block;
+    max-width: 100px;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 90%;
+}
+
+.overtime {
+    
+    margin:0;
+}
+
+.contenedor-imagen {
+    margin:0;
+}
+
+.align{
+	text-align: justify;
+    text-justify: inter-word;
+}
+.contenedor-iconos{
+	padding-left: 160px;
+}
+	}
+
